@@ -1,0 +1,18 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "techguns:techguns_manual": {
+      "viewedEntries": [
+        "techguns:weapon_mechanics",
+        "techguns:weapon_stats"
+      ],
+      "bookmarks": [],
+      "history": [
+        "techguns:weapon_stats",
+        "techguns:weapon_mechanics"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

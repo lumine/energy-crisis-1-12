@@ -31,18 +31,18 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotAluminum</oreDict>
-		</input>
-		<output>
-			<itemStack>immersiveengineering:material 2 3</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotTitanium</oreDict>
 		</input>
 		<output>
 			<itemStack>libvulpes:productrod 2 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 2 1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -77,12 +77,12 @@
 			<itemStack>advancedrocketry:productrod 2 1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="300" power ="100">
+	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotIron</oreDict>
+			<oreDict>ingotHOPGraphite</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 1</itemStack>
+			<itemStack>immersiveengineering:graphite_electrode 1</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
