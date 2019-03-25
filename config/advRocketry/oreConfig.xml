@@ -1,2 +1,9 @@
 <OreConfig>
+  <oreGen pressure="0">
+   <ore block="mekanism:OreBlock" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+   <ore block="libvulpes:ore0:9" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+  </oreGen>
+  <oreGen pressure="2">
+   <ore block="mekanism:OreBlock" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+  </oreGen>
 </OreConfig>

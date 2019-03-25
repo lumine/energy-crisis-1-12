@@ -11,3 +11,5 @@ furnace.remove(<ore:ingotTitanium>);
 
 # must use mods to make bronze
 recipes.removeShapeless(<ore:ingotBronze> * 4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], false);
+
+#recipes.addShaped(<harvestcraft:honeyitem>, [[null, null, null],[null, <rustic:fluid_bottle>, null], [null, null, null]]);
