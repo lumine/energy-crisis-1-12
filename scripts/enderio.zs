@@ -1,4 +1,4 @@
-import mods.enderio.SagMill;
+/* import mods.enderio.SagMill;
 
 # need arc furnace for silicon
 mods.enderio.SagMill.removeRecipe(<minecraft:clay>);
@@ -11,6 +11,6 @@ mods.enderio.SagMill.addRecipe([<libvulpes:productdust:3>], [100], <enderio:item
 # minecraft:magma
 mods.enderio.SagMill.addRecipe([<minecraft:magma_cream> * 3, <minecraft:magma_cream>, <minecraft:blaze_powder>], [100, 80, 20], <minecraft:magma>);
 # coal coke to coke dust
-mods.enderio.SagMill.addRecipe([<immersiveengineering:material:17>], [100], <railcraft:fuel_coke>);
+#mods.enderio.SagMill.addRecipe([<immersiveengineering:material:17>], [100], <railcraft:fuel_coke>);
 
-# increased silver bounus from lead in ender io configs
+# increased silver bounus from lead in ender io configs */

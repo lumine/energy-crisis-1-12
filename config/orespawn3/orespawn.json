@@ -13,7 +13,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 15,
+				"size": 30,
 				"variation": 4,
 				"frequency": 7,
 				"minHeight": 0,
@@ -36,9 +36,9 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 25,
+				"size": 15,
 				"variation": 12,
-				"frequency": 20,
+				"frequency": 10,
 				"minHeight": 0,
 				"maxHeight": 128
 			},
@@ -59,7 +59,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 8,
+				"size": 18,
 				"variation": 4,
 				"frequency": 20,
 				"minHeight": 0,
@@ -82,7 +82,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 8,
+				"size": 18,
 				"variation": 2,
 				"frequency": 2,
 				"minHeight": 0,
@@ -105,7 +105,7 @@
 				"includes": [ "MESA" ]
 			},
 			"parameters": {
-				"size": 8,
+				"size": 18,
 				"variation": 2,
 				"frequency": 2,
 				"minHeight": 32,
@@ -128,7 +128,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 3,
+				"size": 7,
 				"numObjects": 2,
 				"minHeight": 0,
 				"maxHeight": 16
@@ -150,7 +150,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 6,
+				"size": 12,
 				"variation": 3,
 				"frequency": 8,
 				"minHeight": 0,
@@ -173,7 +173,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 5,
+				"size": 10,
 				"variation": 2,
 				"frequency": 1,
 				"minHeight": 0,
@@ -196,7 +196,7 @@
 				"includes": [ "MOUNTAIN" ]
 			},
 			"parameters": {
-				"size": 1,
+				"size": 3,
 				"variation": 0,
 				"frequency": 8,
 				"minHeight": 4,
@@ -266,7 +266,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 112,
+				"size": 12,
 				"variation": 50,
 				"frequency": 10,
 				"minHeight": 0,
@@ -290,7 +290,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 112,
+				"size": 12,
 				"variation": 50,
 				"frequency": 10,
 				"minHeight": 0,
@@ -314,7 +314,7 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 112,
+				"size": 12,
 				"variation": 50,
 				"frequency": 10,
 				"minHeight": 0,
@@ -325,6 +325,31 @@
 					"name": "minecraft:stone",
 					"chance": 100,
 					"state": "variant=granite"
+				}
+			]
+		},
+		"oil_source": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				-1
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 25,
+				"variation": 4,
+				"frequency": 7,
+				"minHeight": 0,
+				"maxHeight": 64
+			},
+			"blocks": [
+				{
+					"name": "magneticraft:oil_source",
+					"chance": 100
 				}
 			]
 		}

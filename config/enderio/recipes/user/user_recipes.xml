@@ -8,4 +8,12 @@
       <output name="oredict:cobblestone" chance="0.15" />
     </sagmilling>
   </recipe>
+  <recipe name="Sagmill: oreAluminum Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreAluminum" />
+      <output name="dustAluminum" amount="2" />
+      <output name="dustTitanium" chance="1.0" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
 </enderio:recipes>
