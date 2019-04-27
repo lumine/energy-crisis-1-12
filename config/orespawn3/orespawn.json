@@ -59,9 +59,9 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 32,
+				"size": 24,
 				"variation": 4,
-				"frequency": 40,
+				"frequency": 32,
 				"minHeight": 0,
 				"maxHeight": 64
 			},
