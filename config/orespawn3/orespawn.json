@@ -36,9 +36,9 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 15,
+				"size": 5,
 				"variation": 12,
-				"frequency": 10,
+				"frequency": 8,
 				"minHeight": 0,
 				"maxHeight": 128
 			},
@@ -61,8 +61,8 @@
 			"parameters": {
 				"size": 24,
 				"variation": 4,
-				"frequency": 32,
-				"minHeight": 0,
+				"frequency": 26,
+				"minHeight": 34,
 				"maxHeight": 64
 			},
 			"blocks": [
@@ -84,9 +84,9 @@
 			"parameters": {
 				"size": 18,
 				"variation": 2,
-				"frequency": 2,
-				"minHeight": 0,
-				"maxHeight": 32
+				"frequency": 4,
+				"minHeight": 24,
+				"maxHeight": 36
 			},
 			"blocks": [
 				{
