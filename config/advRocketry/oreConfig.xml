@@ -3,7 +3,7 @@
    <ore block="mekanism:OreBlock" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
    <!-- titanium atomicscience:uranium_ore -->
    <ore block="libvulpes:ore0:8" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
-   <ore block="atomicscience:uranium_ore" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+   <!-- <ore block="atomicscience:uranium_ore" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" /> -->
   </oreGen>
   <oreGen pressure="2">
    <ore block="mekanism:OreBlock" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />

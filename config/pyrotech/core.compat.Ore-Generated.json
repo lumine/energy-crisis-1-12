@@ -1,0 +1,141 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines ore compatibility.",
+    "",
+    "Slag content will be generated for each oredict entry.",
+    "",
+    "The first valid key in each langKey list will be chosen; reorder keys",
+    "to change which key is selected.",
+    "",
+    "The first valid nugget in each output list will be chosen; reorder nuggets",
+    "to change which nugget is selected.",
+    "",
+    "Slag color is a hex color code without the #",
+    "",
+    "Lang keys are in the format: (domain):(key)",
+    "",
+    "Output item strings are in the format: (domain):(path):(meta)"
+  ],
+  "oredict": {
+    "oreAluminum": {
+      "slagColor": "e2e2e3",
+      "langKey": [
+        "immersiveengineering:tile.immersiveengineering.ore.aluminum",
+        "libvulpes:material.Aluminum"
+      ],
+      "output": [
+        "immersiveengineering:metal:21",
+        "libvulpes:productnugget:9"
+      ]
+    },
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.copper",
+        "immersiveengineering:tile.immersiveengineering.ore.copper",
+        "libvulpes:material.Copper",
+        "mekanism:tile.OreBlock.CopperOre"
+      ],
+      "output": [
+        "immersiveengineering:metal:20",
+        "libvulpes:productnugget:4",
+        "mekanism:nugget:5"
+      ]
+    },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.gold",
+        "minecraft:tile.oreGold"
+      ],
+      "output": [
+        "minecraft:gold_nugget:0"
+      ]
+    },
+    "oreIridium": {
+      "slagColor": "d5d4e7",
+      "langKey": [
+        "libvulpes:material.Iridium"
+      ],
+      "output": [
+        "libvulpes:productnugget:10"
+      ]
+    },
+    "oreIron": {
+      "slagColor": "d8af93",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.iron",
+        "minecraft:tile.oreIron"
+      ],
+      "output": [
+        "immersiveengineering:metal:29",
+        "minecraft:iron_nugget:0"
+      ]
+    },
+    "oreLead": {
+      "slagColor": "95afee",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.lead",
+        "immersiveengineering:tile.immersiveengineering.ore.lead"
+      ],
+      "output": [
+        "immersiveengineering:metal:22"
+      ]
+    },
+    "oreNickel": {
+      "slagColor": "e4e5d8",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.nickel",
+        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+      ],
+      "output": [
+        "immersiveengineering:metal:24"
+      ]
+    },
+    "oreOsmium": {
+      "slagColor": "9babc4",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.osmium",
+        "mekanism:tile.OreBlock.OsmiumOre"
+      ],
+      "output": [
+        "mekanism:nugget:1"
+      ]
+    },
+    "oreSilver": {
+      "slagColor": "e8f6fd",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.silver",
+        "immersiveengineering:tile.immersiveengineering.ore.silver"
+      ],
+      "output": [
+        "immersiveengineering:metal:23"
+      ]
+    },
+    "oreTin": {
+      "slagColor": "c3e9ff",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.tin",
+        "libvulpes:material.Tin",
+        "mekanism:tile.OreBlock.TinOre"
+      ],
+      "output": [
+        "libvulpes:productnugget:5",
+        "mekanism:nugget:6"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "exnihilocreatio:item.exnihilocreatio.ore.uranium",
+        "immersiveengineering:tile.immersiveengineering.ore.uranium"
+      ],
+      "output": [
+        "immersiveengineering:metal:25"
+      ]
+    }
+  }
+}

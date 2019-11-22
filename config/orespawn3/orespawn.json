@@ -175,7 +175,7 @@
 			"parameters": {
 				"size": 10,
 				"variation": 2,
-				"frequency": 1,
+				"frequency": 4,
 				"minHeight": 0,
 				"maxHeight": 32
 			},

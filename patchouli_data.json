@@ -1,5 +1,5 @@
 {
-  "bookGuiScale": 0,
+  "bookGuiScale": 4,
   "clickedVisualize": false,
   "bookData": {
     "techguns:techguns_manual": {
@@ -11,6 +11,65 @@
       "history": [
         "techguns:weapon_stats",
         "techguns:weapon_mechanics"
+      ],
+      "completedManualQuests": []
+    },
+    "pyrotech:book": {
+      "viewedEntries": [
+        "pyrotech:survive/introduction",
+        "pyrotech:survive/chopping_block",
+        "pyrotech:survive/fiber_torch",
+        "pyrotech:survive/hammer_crude",
+        "pyrotech:gather/sticks",
+        "pyrotech:survive/rocks",
+        "pyrotech:gather/ash",
+        "pyrotech:gather/shard_bone_and_flint",
+        "pyrotech:adapt/pit_kiln",
+        "pyrotech:adapt/twine",
+        "pyrotech:adapt/plant_fibers_dried",
+        "pyrotech:appendix/ignition",
+        "pyrotech:survive/flint_and_tinder",
+        "pyrotech:survive/worktable",
+        "pyrotech:innovate/wood_boards",
+        "pyrotech:gather/limestone",
+        "pyrotech:gather/stone_cobbled",
+        "pyrotech:survive/campfire",
+        "pyrotech:accelerate/coal",
+        "pyrotech:accelerate/coal_coke",
+        "pyrotech:survive/tools_crude",
+        "pyrotech:innovate/storage_durable",
+        "pyrotech:accelerate/fire_protection",
+        "pyrotech:bloom/crafting_table",
+        "pyrotech:bloom/furnace",
+        "pyrotech:bloom/dense_nether_coal",
+        "pyrotech:innovate/combustion_machines",
+        "pyrotech:innovate/stone_oven",
+        "pyrotech:innovate/charcoal",
+        "pyrotech:innovate/pit_burn",
+        "pyrotech:innovate/log_pile",
+        "pyrotech:gather/fossil",
+        "pyrotech:gather/storage",
+        "pyrotech:adapt/mulch",
+        "pyrotech:innovate/stone_collector",
+        "pyrotech:innovate/stone_drain",
+        "pyrotech:innovate/stone_brick",
+        "pyrotech:survive/food_roasted"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pyrotech:survive/food_roasted",
+        "pyrotech:innovate/stone_brick",
+        "pyrotech:innovate/stone_drain",
+        "pyrotech:innovate/stone_collector",
+        "pyrotech:adapt/pit_kiln",
+        "pyrotech:adapt/mulch",
+        "pyrotech:gather/sticks",
+        "pyrotech:gather/limestone",
+        "pyrotech:gather/storage",
+        "pyrotech:gather/fossil",
+        "pyrotech:survive/hammer_crude",
+        "pyrotech:survive/chopping_block",
+        "pyrotech:innovate/charcoal"
       ],
       "completedManualQuests": []
     }

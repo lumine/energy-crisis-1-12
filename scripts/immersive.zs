@@ -1,4 +1,12 @@
-/* #mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
+# copper hammer
+recipes.addShaped(<immersiveengineering:tool>, [
+    [null, <ore:ingotCopper>, <ore:twine>],
+    [null, <ore:stickWood>, <ore:ingotCopper>], 
+    [<ore:stickWood>, null, null]
+]);
+
+# arc furnace
+#mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:5>, <minecraft:sand>, <minecraft:clay_ball>, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:5>, <minecraft:sand:1>, <minecraft:iron_nugget>, 2000, 2048);
 
@@ -19,8 +27,8 @@ mods.immersiveengineering.Excavator.removeMineral("Pyrite");
 # more iron and copper
 furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 furnace.addRecipe(<minecraft:iron_block>, <minecraft:iron_ore>, 1500);
-furnace.remove(<ore:ingotCopper>, <ore:oreCopper>);
-furnace.addRecipe(<railcraft:metal>, <ore:oreCopper>, 1500); */
+#furnace.remove(<ore:ingotCopper>, <ore:oreCopper>);
+#furnace.addRecipe(<railcraft:metal>, <ore:oreCopper>, 1500);
 
 ### Organic Chemistry
 ## TODO immersive petroleum Distillery

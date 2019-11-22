@@ -4,7 +4,7 @@
 		<ore itemStack="minecraft:iron_ore" chance="15" />
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="minecraft:redstone_ore" chance="10" />
-		<ore itemStack="atomicscience:uranium_ore" chance="35" />
+		<!-- <ore itemStack="atomicscience:uranium_ore" chance="35" /> -->
 		<!-- <ore itemStack="libvulpes:ore0 8" chance="15" /> -->
 		<!-- <ore itemStack="magneticraft:ores 3" chance="15" /> -->
 	</asteroid>
@@ -15,14 +15,14 @@
 		<ore itemStack="libvulpes:ore0 8" chance="10">
 		<ore itemStack="atomicscience:uranium_ore" chance="35" />
 	</asteroid> -->
-	<!-- <asteroid name="Commet" distance="30" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+	<asteroid name="Commet" distance="30" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:ice" chance="100" />
 		<ore itemStack="minecraft:snow" chance="50" />
 		<ore itemStack="minecraft:glowstone" chance="20" />
-	</asteroid> -->
+	</asteroid>
 	<asteroid name="Iridium Enriched Asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="5" />
-		<ore itemStack="atomicscience:uranium_ore" chance="20" />
+		<!-- <ore itemStack="atomicscience:uranium_ore" chance="20" /> -->
 	</asteroid>
 </Asteroids>
