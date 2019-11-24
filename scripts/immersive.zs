@@ -5,10 +5,21 @@ recipes.addShaped(<immersiveengineering:tool>, [
     [<ore:stickWood>, null, null]
 ]);
 
+# ex nihilo automation
+mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_dust>, <ore:sand>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>, 2048);
+# fix crusher <ore:oreDilithium> making <libvulpes:productgem> instead it should be <libvulpes:productdust>
+mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
+mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust> * 2, <ore:oreDilithium>, 2048);
+
 # arc furnace
+# silicon
 #mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:5>, <minecraft:sand>, <minecraft:clay_ball>, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:5>, <minecraft:sand:1>, <minecraft:iron_nugget>, 2000, 2048);
+#mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:5>, <minecraft:sand>, <minecraft:clay_ball>, 2000, 2048);
+#mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:5>, <minecraft:sand:1>, <minecraft:iron_nugget>, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<libvulpes:productingot:3>, <ore:sand>, <minecraft:clay_ball>, 2000, 2048);
+
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 2, <ore:ingotTitanium>, null, 2000, 2048, [<ore:ingotIridium>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot> * 3, <ore:ingotTitanium> *3, null, 2000, 2048, [<ore:ingotAluminum> * 7], "Alloying");
@@ -34,3 +45,7 @@ furnace.addRecipe(<minecraft:iron_block>, <minecraft:iron_ore>, 1500);
 ## TODO immersive petroleum Distillery
 # rocket fuel
 #mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 16, <liquid:biodiesel> * 12, <liquid:biodiesel> * 4);
+
+recipes.addShaped(<immersiveengineering:conveyor> * 8, [[null, null, null],[<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
+
+

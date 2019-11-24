@@ -1,4 +1,4 @@
-import mods.enderio.SagMill;
+/* import mods.enderio.SagMill;
 
 # need arc furnace for silicon
 mods.enderio.SagMill.removeRecipe(<minecraft:clay>);
@@ -21,5 +21,5 @@ mods.enderio.SagMill.addRecipe([<minecraft:magma_cream> * 3, <minecraft:magma_cr
 mods.enderio.SagMill.addRecipe([<exnihilocreatio:block_endstone_crushed>], [100], <minecraft:end_stone>);
 mods.enderio.SagMill.removeRecipe(<minecraft:netherrack>);
 mods.enderio.SagMill.addRecipe([<exnihilocreatio:block_netherrack_crushed>, <mekanism:otherdust:3>], [100, 15], <minecraft:netherrack>);
-mods.enderio.SagMill.addRecipe([<exnihilocreatio:block_dust>], [100], <ore:sand>);
+mods.enderio.SagMill.addRecipe([<exnihilocreatio:block_dust>], [100], <ore:sand>); */
 

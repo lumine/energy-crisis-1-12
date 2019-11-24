@@ -98,7 +98,6 @@
     "oreOsmium": {
       "slagColor": "9babc4",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.osmium",
         "mekanism:tile.OreBlock.OsmiumOre"
       ],
       "output": [
@@ -130,7 +129,6 @@
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.uranium",
         "immersiveengineering:tile.immersiveengineering.ore.uranium"
       ],
       "output": [

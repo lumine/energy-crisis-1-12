@@ -53,10 +53,12 @@
         "pyrotech:innovate/stone_collector",
         "pyrotech:innovate/stone_drain",
         "pyrotech:innovate/stone_brick",
-        "pyrotech:survive/food_roasted"
+        "pyrotech:survive/food_roasted",
+        "pyrotech:bloom/wither_forge"
       ],
       "bookmarks": [],
       "history": [
+        "pyrotech:bloom/wither_forge",
         "pyrotech:survive/food_roasted",
         "pyrotech:innovate/stone_brick",
         "pyrotech:innovate/stone_drain",
@@ -68,8 +70,7 @@
         "pyrotech:gather/storage",
         "pyrotech:gather/fossil",
         "pyrotech:survive/hammer_crude",
-        "pyrotech:survive/chopping_block",
-        "pyrotech:innovate/charcoal"
+        "pyrotech:survive/chopping_block"
       ],
       "completedManualQuests": []
     }
