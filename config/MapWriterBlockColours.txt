@@ -1211,6 +1211,7 @@ block buildinggadgets:templatemanager * ffbcc8c8
 block buildinggadgets:constructionblock_dense * ffa6a4a1
 block buildinggadgets:constructionblock * ffadaaa7
 block buildinggadgets:constructionblockpowder * ffdedad0
+block butterflies:butterfly_case * 3effffff
 block chococraft:gysahl_green 0 1300653b
 block chococraft:gysahl_green 1 23005732
 block chococraft:gysahl_green 2 31005e37
@@ -1341,12 +1342,12 @@ block immersiveengineering:treated_wood_stairs0 * ff542f1f
 block immersiveengineering:treated_wood_stairs1 * ff4d2d1e
 block immersiveengineering:treated_wood_stairs2 * ff4d2d1f
 block immersiveengineering:wooden_decoration * ff542f1f
-block immersiveengineering:wooden_device0 * ff482719
+block immersiveengineering:wooden_device0 * ff702a1f
 block immersiveengineering:wooden_device0 1 ff532e1d
 block immersiveengineering:wooden_device0 2 ffffffff
 block immersiveengineering:wooden_device0 3 ff524e4c
-block immersiveengineering:wooden_device0 4 ff452a1d
-block immersiveengineering:wooden_device0 5 ff473933
+block immersiveengineering:wooden_device0 4 ff4a3117
+block immersiveengineering:wooden_device0 5 ff453d25
 block immersiveengineering:wooden_device0 6 ff664738
 block immersiveengineering:wooden_device0 7 ff4b4745
 block immersiveengineering:wooden_device1 * ffffffff
