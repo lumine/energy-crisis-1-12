@@ -20,11 +20,11 @@ PitKiln.addRecipe("rustic_pot_from_clay", <rustic:vase>, <minecraft:clay_ball>, 
 
 # tin and not needed. IE Hammer can make dust but copper is needed for the hammer
 PitKiln.addRecipe("copper_kiln", <immersiveengineering:metal>, <ore:oreCopper>, 60 * 20, true);
-PitKiln.addRecipe("tin_kiln", <libvulpes:productingot:5>, <ore:oreTin>, 60 * 20, true);
+PitKiln.addRecipe("tin_kiln", <mekanism:ingot:6>, <ore:oreTin>, 60 * 20, true);
 
 # campfire
 #Campfire.addRecipe("copper_on_fire", <immersiveengineering:metal>, <ore:oreCopper>);
-Campfire.addRecipe("tin_on_fire", <libvulpes:productingot:5>, <ore:oreTin>);
+Campfire.addRecipe("tin_on_fire", <mekanism:ingot:6>, <ore:oreTin>);
 Campfire.addRecipe("lead_on_fire", <immersiveengineering:metal:2>, <ore:oreLead>);
 
 ## furnace <minecraft:furnace>
