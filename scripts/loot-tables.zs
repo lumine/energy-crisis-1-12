@@ -1,0 +1,1 @@
+# Astroblock mod pack has good examples of adding loot to lost city chests
